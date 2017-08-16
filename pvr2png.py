@@ -27,6 +27,7 @@ def pvrToPng (_TPATH,_path,_OutPath):
     os.remove("pvr2pngTmp.plist")
     print "--------------------pvrToPng end--------------------"
 
+# Tips: 1. Install TexturePacker Command Tools; 2. You should set TexturePacker to Pro mode;
 if __name__ == '__main__':
     #currtenPath = os.getcwd()
     if len(sys.argv) < 3:
@@ -42,3 +43,5 @@ if __name__ == '__main__':
         if len(sys.argv) == 5:
             TPATH = sys.argv[4]
         pvrToPng(TPATH,sys.argv[2],OutPath)
+
+#
